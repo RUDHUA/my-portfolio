@@ -1,0 +1,75 @@
+*{
+padding:0;
+margin:0;
+}
+body{
+    background-color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation{
+    height :100px;
+    width: calc(100% - 500px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+}
+.link{ 
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    padding: 0 15px
+}        
+.contact-us{
+    border: none;
+    font-size: large;
+    background-color:  #9cfceb;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 15px black;
+}
+.body{
+    height: calc(100vh - 100px);
+    width:calc(100% - 500px);
+    margin: 0 auto;
+    display: flex;
+}
+.image,.about_text{
+    height: 100%;
+    width: 100%;
+}
+.image{
+    /* background-color: crimson; */
+}
+.about_text{
+    font-size: large;
+    color: aqua;
+}
+.DOWNLOAD_CV{
+    border: solid;
+    font-size: large;
+    color: aquamarine;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 2px;
+}
+.name1{
+    font-style: normal;
+    color:white ;
+}
+.name2{
+    font-style:normal;
+    color:white;
+}
+.name4{
+    font-style: unset;
+    color:aqua;
+}
+.name3{
+    font-style: oblique;
+    color: aliceblue;
+}
+    
